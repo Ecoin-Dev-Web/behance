@@ -17,6 +17,10 @@ button{
     background-color: #060606;
     color: #fff;
 }
+
+p{}
+h5{}
+/*********page owe************/
 .page1{
     background-image: url("../images/image-01.jpg");
     background-repeat: no-repeat;
@@ -26,13 +30,27 @@ button{
 .header{
     display: flex;
     height: 100px;
+    justify-content: space-around;
+    gap: 180px;
 }
+.logo{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.logo img{
+}
+.furn p{
+   font-size: 7px;
+}
+.furn h6{
+    font-size: 15px; 
+}
+
 .line{
     display: flex;
     flex-direction: column;
-    position: relative;
     justify-content: space-around;
-    left: 700px;
 }
 .linetop{
     display: flex;
@@ -63,4 +81,69 @@ button{
 }
 .slide p {
     margin-bottom: 20px;
+}
+
+/*********card**************/
+.card{
+    display: flex;
+    justify-content: center;
+}
+.card img{
+    width: 90%;
+}
+.page2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cont{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    gap: 30px;
+}
+.cont .top{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    gap: 30px;
+}
+.cont .left{
+    background-image:url("../images/left.jpg");
+    background-repeat: no-repeat;
+    width: 35%;
+    height: 100%;
+    background-size: 100%;
+}
+.cont .right{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: 100%;
+    gap: 30px;
+    background-size: 100%;
+}
+.cont .top .one{
+    background-image:url("../images/top1.jpg");
+    background-repeat: no-repeat;
+    width: 50%;
+    background-size: cover;
+}
+.cont .top .two{
+    background-image:url("../images/top2.jpg");
+    background-repeat: no-repeat;
+    width: 50%;
+    background-size: cover;
+}
+.cont .bottom{
+    background-image:url("../images/bottom.jpg");
+    background-repeat: no-repeat;
+    height: 50%;
+    background-size: 100%;
 }
