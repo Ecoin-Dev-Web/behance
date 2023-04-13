@@ -191,3 +191,28 @@ h5{
     left: 15px;
     top: 155px;
 }
+
+/**********page3**********/
+.page3{
+    display: flex;
+    justify-content: center;
+}
+.table{
+   
+    display: flex;
+    width: 73%;
+    height: 350px;
+    gap: 15px;
+}
+.table .card1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+}
+.table .card1 .img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
