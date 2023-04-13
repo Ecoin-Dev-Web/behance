@@ -196,23 +196,126 @@ h5{
 .page3{
     display: flex;
     justify-content: center;
+    margin-bottom: 70px;
 }
 .table{
-   
     display: flex;
     width: 73%;
-    height: 350px;
-    gap: 15px;
+    height: 400px;
+    gap: 25px;
 }
 .table .card1{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     width: 25%;
 }
-.table .card1 .img{
+.table .card1 img{
     display: flex;
     width: 100%;
-    height: 100%;
+    height: 72%;
+    margin-bottom: 25px;
 }
+.table .card1 .cercle{
+    display: flex;
+    gap: 5px;
+}
+.table .card1 .cercle span{
+    width: 0.9em;
+    height: 0.9em;
+    border-radius: 50%;
+}
+.table .card1 .dicrip{
+    display: flex;
+    height: 25%;
+    flex-direction: column;
+    gap: 10px;
+}
+.table .card1 .dicrip h5{
+    font-size: 18px;
+    color: rgba(0,0,0,0.70);
+}
+.table .card1 .sp1{background-color: darkgrey;}
+.table .card1 .sp2{background-color: aquamarine;}
+.table .card1 .sp3{background-color: darksalmon;}
+.table .card1 .sp4{background-color: #2FAB73;}
+.table .card1 .sp5{background-color: chocolate;}
 
+/*************page4************/
+.page4{
+    margin-bottom: 70px;
+}
+.page4 .design{
+        background-image: url("../images/03.jpg");
+        background-size: 100%;
+        height: 500px;
+        margin-bottom: 60px;
+}
+.page4 .design img{
+    width: 350px;
+    height: 400px;
+    position: relative;
+    left: 450px;
+    top: 50px;
+}
+.slide2{
+    position: relative;
+    display: inline-block;
+    left: 180px;
+    bottom: 80px;
+    font-size: 20px;
+}
+.slide2 h1{
+    margin-bottom: 10px;
+}
+.slide2 p{
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.room{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.room .one{
+    background-image: url("../images/top1.jpg");
+    background-size: 100%;
+    width: 480px;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.room .two{
+    background-image: url("../images/top2.jpg");
+    background-size: 100%;
+    width: 480px;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.room .care{
+    display: inline-flex;
+    width: 80%;
+    height: 80%;
+    background-color: rgb(255 255 255 / 50%);
+    justify-content: center;
+    align-items: center;
+}
+.room .care .discrip{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.room .care .discrip h5{
+    font-size: 25px;
+}
+.room .care .discrip button{
+    padding: 9px 35px;
+    border-radius: 8px;
+    border: none;
+    background-color: #060606;
+    color: #fff;
+    font-size: 12px;
+}
