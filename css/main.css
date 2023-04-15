@@ -397,14 +397,13 @@ h5{
     height: 55%;
     gap: 5px;
     flex-direction: column;
-    border: 1.9px solid #b3830c;
+    border: 1.9px solid #cead60;
     align-items: center;
     justify-content: center;
 }
 .rectang .frame img{
     display: flex;
     width: 60px;
-    background-color: #b3830c;
 }
 .rectang .frame p{
     font-size: 12px;
