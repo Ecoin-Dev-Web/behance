@@ -4,11 +4,7 @@
     box-sizing: border-box;
 }
 a{
-    color: #fff;
     text-decoration: none;
-}
-span{
-    color: #fff;
 }
 button{
     padding: 15px 70px;
@@ -33,6 +29,8 @@ h5{
     justify-content: space-around;
     gap: 180px;
 }
+.header a{color: #fff;}
+.header span{color: #fff;}
 .logo{
     display: flex;
     align-items: center;
@@ -47,7 +45,7 @@ h5{
     font-size: 15px; 
 }
 
-.line{
+.header .line{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -413,4 +411,92 @@ h5{
 .rectang .frame h4{
     font-size: 20px;
     color: rgba(0, 0, 0, 70%);
+}
+
+/************page6***********/
+.page6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+    background-color: #eeeeee;
+}
+.part1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 73%;
+    height: 335px;
+    border-bottom: 2px solid rgba(0, 0, 0, 25%);
+    padding: 65px 0px;
+}
+.page6 .part1 .logo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+}
+.page6 .part1 .logo p{font-size: 10px;}
+.page6 .part1 .logo h6{font-size: 20px;}
+.page6 .part1 .logo .furn{
+    color: rgba(0, 0, 0, 70%);
+}
+.page6 .part1 #p1{   
+     font-size: 20px;
+     margin-bottom: 35px;
+     color: rgba(0, 0, 0, 70%);
+    }
+.page6 .part1 #p2{
+    width: 46%;
+    font-size: 18px;
+    padding-bottom: 5px;
+    color: rgba(0, 0, 0, 50%);
+    border-bottom: 2px solid rgba(0, 0, 0, 25%);
+    }
+.page6 .part1 #log2{
+    width: 22px;
+    position: relative;
+    left: 215px;
+    bottom: 25px; 
+    background-color: #c1b8b8;
+}
+/*******page6 part2********/
+.page6 .part2 .social img{
+    width: 20px;
+}
+.page6 .part2{
+    display: flex;
+    justify-content: space-between;
+    width: 73%;
+    border-bottom: 2px solid rgba(0, 0, 0, 25%);
+    padding: 65px 0px;
+}
+.page6 .part2 .onlist{
+    display: flex;
+    gap: 60px;
+}
+.page6 .part2 h4{
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 70%);
+}
+.part2 .onlist ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.part2 .onlist ul a{color: rgba(0, 0, 0, 60%);}
+.part2 .find .line{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 25px;
+    color: rgba(0, 0, 0, 60%);;
+}
+.page6 .part2 .social img{
+    width: 32px;
+    padding: 4px;
+    margin-right: 5px;
+    background-color: rgba(0,0,0,6%);
+    border: 1px solid rgba(0,0,0,24%);
+    color: white;
 }
