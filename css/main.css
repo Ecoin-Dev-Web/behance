@@ -32,6 +32,9 @@ h5{
 }
 .header a{color: #fff;}
 .header span{color: #fff;}
+.header .menu{
+    display: none;
+}
 .logo{
     display: flex;
     align-items: flex-end;
@@ -239,6 +242,7 @@ h5{
     background-color: darkgray;
     border-radius: 50%;
 }
+
 .table .card1 .comment-sp:nth-child(1){
     background-color: #cead60;
     color: #060606;
@@ -570,3 +574,96 @@ h5{
 .part3 .copy p {
      color: rgba(0, 0, 0, 60%);
 }
+
+
+/***********media Queries*********/
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+  
+    .header{
+        height: 100px;
+        align-items: center;
+    }
+    .header .line{display:none ;}
+
+    .header .menu{display: flex;}
+    .page1 .slide{
+        position: absolute;
+        font-size: 16px;
+        left: 40px;
+        top: 290px;
+  }
+
+}
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+
+    .header{
+        height: 80px;
+        align-items: center;
+    }
+    .header .line{display:none ;}
+
+    .header .menu{display: flex;}
+    .page1 .slide{
+        position: absolute;
+        font-size: 11px;
+        left: 40px;
+        top: 270px;
+    }
+
+
+  }
