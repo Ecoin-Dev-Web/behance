@@ -160,7 +160,6 @@ h5{
 }
 .cont .left .discrip{
     position: relative;
-    display: inline-block;
     left: 180px;
     top: 290px;
 }
@@ -172,12 +171,8 @@ h5{
     gap: 30px;
     background-size: 100%;
 }
-.cont .right p{
-    font-size: 15px;
-}
-.cont .right h5{
-    font-size: 17px;
-}
+.cont .right p{font-size: 15px;}
+.cont .right h5{font-size: 17px;}
 
 .cont .top .one{
     background-image:url("../images/top1.jpg");
@@ -286,6 +281,7 @@ h5{
     margin-bottom: 70px;
 }
 .page4 .design{
+        display: inline-block;
         background-image: url("../images/03.jpg");
         background-size: 100%;
         height: 500px;
@@ -651,6 +647,7 @@ h5{
   
   @media (min-width: 320px) and (max-width: 480px) {
 
+         /**********page one***********/
     .header{
         height: 80px;
         align-items: center;
@@ -664,6 +661,170 @@ h5{
         left: 40px;
         top: 270px;
     }
+        /**********page one***********/
+
+        /**********page TWO***********/
+        .title {
+            width: 90%;
+            gap: 5px;
+            align-items: normal;
+            margin-bottom: 15px;
+        }
+        .title h3{font-size: 18px;}
+        .title P {font-size: 16px;}
+
+        .cont{
+            align-items: center;
+            flex-direction: column;
+            width: 90%;
+            height: 670px;
+            gap: 15px;
+            margin-bottom: 22px;
+        }
+        .cont .left{width: 100%;}
+        .cont .left .discrip{
+            display: inline-block;
+            left: 30px;
+            top: 150px;
+        }
+        .cont .left h5 {font-size: 22px;}
+        .cont .left P {font-size: 14px;}
+        .cont .left button {padding: 12px 32px;}
+
+        .cont .right{
+            width: 100%;
+            gap: 5px;
+        }
+        .cont .top {gap: 5px;}
+        .cont .right .top .discrip{
+            left: 3px;
+            top: 0px;
+        }
+        .cont .right .bottom .discrip{
+            left: 5px;
+            top: 80px;
+        }
+        /**********page TWO***********/
+
+        /**********page 03***********/
+
+        .page3{margin-bottom: 40px;}
+        .table{
+            width: 90%;
+            height: auto;
+            flex-wrap: wrap;
+            gap: 11px;
+        }
+        .table .card1{width: 48%;} 
+        .table .card1 img{margin-bottom: 12px;}
+        /* .table .card1 .log1{
+            gap: 13px;
+            left: 15px;
+            bottom: 100px;
+        } */
+        .table .card1 .comment-sp{
+            padding: 7px;
+            font-size: 14px;
+        }
+    
+        /**********page 03***********/
+
+        /**********page 04***********/
+
+        .page4{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin-bottom: 40px;
+        }
+        .room {
+            width: 90%;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .room .one{width: auto;}
+        .room .two{width: auto;}
+        .page4 .design{margin-bottom: 25px;}
+        .page4 .design img{display: none;}
+        .slide2{
+            left: 0px;
+            top: 230px;
+            font-size: 16px;
+            padding: 0px 10px;
+        }
+        .page4 .slide2 button{padding: 12px 40px;}
+
+        /**********page 04***********/
+
+        /**********page 05***********/
+        .rectang{
+            flex-wrap: wrap;
+            width: 90%;
+            margin-top: 20px;
+        }
+        .frame{width: 46%; height: 120px;}
+        .rectang .frame h4{font-size: 13px;}
+        .rectang .frame p{font-size: 10px;}
+        .cont1 h1{display: none;}
+        .forms{width: 90%;}
+        .forms button{right: 50px;}
+      
+        /**********page 05***********/
+
+        /**********page 06***********/
+
+        .page6 .part1{
+            height: auto;
+            padding: 12px 0px;
+        }
+        .logo img {width: 35px;}
+        .page6 .part1 .logo h6 {font-size: 12px;}
+        .page6 .part1 .logo p {font-size: 6px;}
+        .page6 .part1 #p1 {
+            font-size: 12px;
+            margin-bottom: 10px;
+        }
+        .page6 .part1 #p2 {
+            width: 75%;
+            font-size: 13px;
+        }
+        .page6 .part1 #log2{
+            width: 16px;
+            left: 79px;
+            bottom: 19px;
+        }
+        .page6 .part2{
+            width: 90%;
+            align-items: center;
+            flex-direction: column;
+            padding: 35px 0px;
+        }
+        .page6 .part2 .onlist {
+            gap: 28px;
+            flex-wrap: wrap;
+            margin-top: 15px;
+        }
+        .page6 .onlist .list{width: 45%;}
+        .page6 .part3{
+            width: 90%;
+            flex-direction: column;
+            padding: 15px 0px;
+            gap: 13px;
+        }
+        .part3 .visa a {
+            width: 45px;
+            height: 25px
+        }
+        .part3 .copy {font-size: 12px;}
+        .page6 .part2 h4 {
+            display: flex;
+            justify-content: center;
+        }
+        .part2 .onlist ul {
+            align-items: center;
+        }
+
+        /**********page 06***********/
 
 
   }
