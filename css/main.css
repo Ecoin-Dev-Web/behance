@@ -281,29 +281,19 @@ h5{
     margin-bottom: 70px;
 }
 .page4 .design{
-        display: inline-block;
-        background-image: url("../images/03.jpg");
-        background-size: 100%;
-        height: 500px;
-        margin-bottom: 60px;
+    display: flex;
+    background-image: url("../images/03.jpg");
+    margin-bottom: 60px;
+    gap: 150px;
+    align-items: center;
+    justify-content: space-around;
 }
 .page4 .design img{
     width: 350px;
     height: 400px;
-    position: relative;
-    left: 450px;
-    top: 50px;
 }
-.slide2{
-    position: relative;
-    display: inline-block;
-    left: 180px;
-    top: 150px;
-    font-size: 20px;
-}
-.slide2 h1{
-    margin-bottom: 10px;
-}
+.slide2{font-size: 20px;}
+.slide2 h1{margin-bottom: 10px;}
 .slide2 p{
     margin-bottom: 20px;
     font-size: 16px;
@@ -581,7 +571,6 @@ h5{
 
 @media (min-width: 1281px) {
   
-    /* CSS */
     
   }
   
@@ -592,8 +581,106 @@ h5{
   
   @media (min-width: 1025px) and (max-width: 1280px) {
     
-    /* CSS */
+    /**********page one***********/
+    .header{gap: 50px;}
+    .header .logo img{width: 70px;}
+    .header .line{font-size: 21px;}
+    .furn h6 {font-size: 18px;}
+    .furn p {font-size: 10px;}
+    .page1 .slide{
+        position: relative;
+        font-size: 22px;
+        top: 170px;
+        left: 470px;
+    }
+    .page1 .slide button{font-size: 20px;}
+        /**********page one***********/
+
+        /**********page TWO***********/
+        .cont{
+            width: 90%;
+            gap: 10px;
+        }
+        .cont .left{width: 100%;}
+        .cont .left .discrip{
+            display: inline-block;
+            left: 35px;
+            top: 280px;
+        }
+        .cont .left P {font-size: 18px;}
+        .cont .right{
+            width: 100%;
+            gap: 10px;
+        }
+        .cont .top {gap: 10px;}
+        .cont .right .top .discrip{left: 16px;}
+
+       
+        /**********page TWO***********/
+
+        /**********page 03***********/
+
+        .page3{margin-bottom: 40px;}
+        .table{width: 90%;}
+        .table .card1{width: 47%;} 
+        .table .card1 img{margin-bottom: 12px;}
+        .table .card1 .dicrip h5{font-size: 25px;}
+        .table .card1 .cercle{font-size: 25px;}
+        .table .card1 .dicrip .price{font-size: 25px;}
+        .table .card1 .comment-sp{
+            padding: 7px;
+            font-size: 14px;
+        }
     
+        /**********page 03***********/
+
+        /**********page 04***********/
+
+        .page4{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        .room {width: 90%;}
+        .room .one{width: 50%;}
+        .room .two{width: 50%;}
+        .slide2 p {font-size: 20px;}
+
+        /**********page 04***********/
+
+        /**********page 05***********/
+        .forms button{right: 50px;}
+        .rectang .frame p{font-size: 15px;}
+        
+        /**********page 05***********/
+
+        /**********page 06***********/
+
+        .page6 .part1{
+            height: auto;
+            gap: 10px;
+        }
+        .page6 .logo img {width: 75px;}
+        .page6 .part1 .logo h6 {font-size: 18px;}
+        .page6 .part1 .logo p {font-size: 10px;}
+        .page6 .part1 #p2 {
+            width: 75%;
+            font-size: 20px;
+        }
+        .page6 .part1 #log2{
+            width: 30px;
+            left: 265px;
+            bottom: 44px;
+        }
+        .page6 .part2{width: 90%;}
+        .page6 .part3{width: 90%;}
+        .part2 .onlist ul {align-items: center;}
+        .page6 .part2 h4 {
+            display: flex;
+            justify-content: center;
+        }
+        /**********page 06***********/
+   
   }
   
   /* 
@@ -602,9 +689,163 @@ h5{
   */
   
   @media (min-width: 768px) and (max-width: 1024px) {
+
+      /**********page one***********/
+      .header{
+        height: 105px;
+        gap: 218px;
+        align-items: center;
+    }
+    .header .logo img{width: 80px;}
+    .furn h6 {font-size: 20px;}
+    .furn p {font-size: 11px;}
+    .header .line{display:none ;}
+    .header .menu{display: flex; font-size: 40px;}
+    .page1 .slide{
+        position: absolute;
+        font-size: 22px;
+        left: 100px;
+        top: 340px;
+    }
+    .page1 .slide button{
+        padding: 15px 50px;
+        font-size: 20px;
+    }
+        /**********page one***********/
+
+        /**********page TWO***********/
+        .title {width: 90%;}
+        .cont{
+            width: 90%;
+            gap: 10px;
+        }
+        .cont .left{width: 100%;}
+        .cont .left .discrip{
+            display: inline-block;
+            left: 35px;
+            top: 280px;
+        }
+        .cont .left P {font-size: 18px;}
+        .cont .right{
+            width: 100%;
+            gap: 10px;
+        }
+        .cont .top {gap: 10px;}
+        .cont .right .top .discrip{left: 16px;}
+
+       
+        /**********page TWO***********/
+
+        /**********page 03***********/
+
+        .page3{margin-bottom: 40px;}
+        .table{
+            width: 65%;
+            height: auto;
+            flex-wrap: wrap;
+            gap: 26px;
+        }
+        .table .card1{width: 47%;} 
+        .table .card1 img{margin-bottom: 12px;}
+        .table .card1 .dicrip h5{font-size: 25px;}
+        .table .card1 .cercle{font-size: 25px;}
+        .table .card1 .dicrip .price{font-size: 25px;}
+        /* .table .card1 .log1{
+            gap: 13px;
+            left: 15px;
+            bottom: 100px;
+        } */
+        .table .card1 .comment-sp{
+            padding: 7px;
+            font-size: 14px;
+        }
     
-    /* CSS */
-    
+        /**********page 03***********/
+
+        /**********page 04***********/
+
+        .page4{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin-bottom: 40px;
+        }
+        .room {width: 90%;}
+        .room .one{width: 50%;}
+        .room .two{width: 50%;}
+        .page4 .design img{display: none;}
+        .slide2 p {font-size: 20px;}
+
+        /**********page 04***********/
+
+        /**********page 05***********/
+        .cont1 h1{font-size: 30px;}
+        .forms{width: 45%;}
+        .forms button{right: 50px;}
+
+        .rectang{
+            flex-wrap: wrap;
+            margin: 20px 0px;
+        }
+        .frame{width: 46%; height: 130px;}
+        .rectang .frame p{font-size: 15px;}
+        
+        /**********page 05***********/
+
+        /**********page 06***********/
+
+        .page6 .part1{
+            height: auto;
+            gap: 10px;
+            padding: 12px 0px;
+        }
+        .page6 .logo img {width: 60px;}
+        .page6 .part1 .logo h6 {font-size: 16px;}
+        .page6 .part1 .logo p {font-size: 9px;}
+        .page6 .part1 #p1 {
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        .page6 .part1 #p2 {
+            width: 75%;
+            font-size: 14px;
+        }
+        .page6 .part1 #log2{
+            width: 22px;
+            left: 122px;
+            bottom: 36px;
+        }
+        .page6 .part2{
+            width: 90%;
+            align-items: center;
+        }
+        .page6 .part2 .onlist {
+            gap: 0px;
+            flex-wrap: wrap;
+        }
+        .page6 .part2 .find{
+            gap: 30px;
+            display: flex;
+            flex-direction: column;
+        }
+        .page6 .onlist .list{width: 45%; margin-bottom: 15px;}
+        .page6 .part3{
+            width: 90%;
+            flex-direction: column;
+            padding: 15px 0px;
+            gap: 13px;
+        }
+        .part3 .visa a {
+            width: 45px;
+            height: 25px
+        }
+        .part3 .copy {font-size: 12px;}
+        .page6 .part2 h4 {
+            display: flex;
+            justify-content: center;
+        }
+        .part2 .onlist ul {align-items: center;}
+        /**********page 06***********/
   }
   
   /* 
@@ -613,8 +854,7 @@ h5{
   */
   
   @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    
-    /* CSS */
+  
     
   }
   
@@ -625,19 +865,179 @@ h5{
   
   @media (min-width: 481px) and (max-width: 767px) {
   
-    .header{
-        height: 100px;
-        align-items: center;
-    }
-    .header .line{display:none ;}
-
-    .header .menu{display: flex;}
-    .page1 .slide{
-        position: absolute;
-        font-size: 16px;
-        left: 40px;
-        top: 290px;
-  }
+         /**********page one***********/
+         .header{
+            height: 80px;
+            gap: 218px;
+            align-items: center;
+        }
+        .header .line{display:none ;}
+        .header .menu{display: flex; font-size: 35px;}
+        .page1 .slide{
+            position: absolute;
+            font-size: 18px;
+            left: 50px;
+            top: 270px;
+        }
+            /**********page one***********/
+    
+            /**********page TWO***********/
+            .title {
+                width: 90%;
+                gap: 6px;
+                align-items: normal;
+                margin-bottom: 15px;
+            }
+            .title h3{font-size: 20px;}
+            .title P {font-size: 20px;}
+    
+            .cont{
+                align-items: center;
+                flex-direction: column;
+                width: 90%;
+                height: 670px;
+                gap: 15px;
+                margin-bottom: 22px;
+            }
+            .cont .left{width: 100%;}
+            .cont .left .discrip{
+                display: inline-block;
+                left: 45px;
+                top: 120px;
+            }
+            .cont .left h5 {font-size: 27px;}
+            .cont .left P {font-size: 18px;}
+            .cont .left button {padding: 12px 32px;}
+    
+            .cont .right{
+                width: 100%;
+                gap: 5px;
+            }
+            .cont .top {gap: 10px;}
+            .cont .right .top .discrip{
+                left: 47px;
+                top: 5px;
+            }
+            .cont .right .bottom .discrip{
+                left: 10px;
+                top: 80px;
+            }
+            /**********page TWO***********/
+    
+            /**********page 03***********/
+    
+            .page3{margin-bottom: 40px;}
+            .table{
+                width: 90%;
+                height: auto;
+                flex-wrap: wrap;
+                gap: 11px;
+            }
+            .table .card1{width: 48%;} 
+            .table .card1 img{margin-bottom: 12px;}
+            /* .table .card1 .log1{
+                gap: 13px;
+                left: 15px;
+                bottom: 100px;
+            } */
+            .table .card1 .comment-sp{
+                padding: 7px;
+                font-size: 14px;
+            }
+        
+            /**********page 03***********/
+    
+            /**********page 04***********/
+    
+            .page4{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                margin-bottom: 40px;
+            }
+            .page4 .design{margin-bottom: 25px;}
+            .page4 .design img{display: none;}
+            .slide2{font-size: 18px;}
+            .page4 .slide2 button{padding: 12px 40px;}
+            .room {
+                width: 90%;
+                flex-direction: column;
+                gap: 15px;
+            }
+            .room .one{width: auto;}
+            .room .two{width: auto;}
+    
+            /**********page 04***********/
+    
+            /**********page 05***********/
+            .rectang{
+                flex-wrap: wrap;
+                width: 90%;
+                margin-top: 20px;
+            }
+            .frame{width: 46%; height: 120px;}
+            .rectang .frame h4{font-size: 15px;}
+            .rectang .frame p{font-size: 12px;}
+            .cont1 h1{display: none;}
+            .forms{width: 90%;}
+            .forms button{right: 50px;}
+          
+            /**********page 05***********/
+    
+            /**********page 06***********/
+    
+            .page6 .part1{
+                height: auto;
+                gap: 10px;
+                padding: 12px 0px;
+            }
+            .page6 .logo img {width: 60px;}
+            .page6 .part1 .logo h6 {font-size: 16px;}
+            .page6 .part1 .logo p {font-size: 9px;}
+            .page6 .part1 #p1 {
+                font-size: 14px;
+                margin-bottom: 10px;
+            }
+            .page6 .part1 #p2 {
+                width: 75%;
+                font-size: 14px;
+            }
+            .page6 .part1 #log2{
+                width: 22px;
+                left: 122px;
+                bottom: 36px;
+            }
+            .page6 .part2{
+                width: 90%;
+                gap: 15px;
+                align-items: center;
+                flex-direction: column;
+                padding: 35px 0px;
+            }
+            .page6 .part2 .onlist {
+                gap: 28px;
+                flex-wrap: wrap;
+                margin-top: 15px;
+            }
+            .page6 .onlist .list{width: 45%;}
+            .page6 .part3{
+                width: 90%;
+                flex-direction: column;
+                padding: 15px 0px;
+                gap: 13px;
+            }
+            .part3 .visa a {
+                width: 45px;
+                height: 25px
+            }
+            .part3 .copy {font-size: 12px;}
+            .page6 .part2 h4 {
+                display: flex;
+                justify-content: center;
+            }
+            .part2 .onlist ul {align-items: center;}
+            /**********page 06***********/
+ 
 
 }
   /* 
@@ -737,6 +1137,10 @@ h5{
             flex-direction: column;
             margin-bottom: 40px;
         }
+        .page4 .design{margin-bottom: 25px;}
+        .page4 .design img{display: none;}
+        .slide2{font-size: 16px; padding: 0px 10px;}
+        .page4 .slide2 button{padding: 12px 40px;}
         .room {
             width: 90%;
             flex-direction: column;
@@ -744,15 +1148,6 @@ h5{
         }
         .room .one{width: auto;}
         .room .two{width: auto;}
-        .page4 .design{margin-bottom: 25px;}
-        .page4 .design img{display: none;}
-        .slide2{
-            left: 0px;
-            top: 230px;
-            font-size: 16px;
-            padding: 0px 10px;
-        }
-        .page4 .slide2 button{padding: 12px 40px;}
 
         /**********page 04***********/
 
@@ -820,11 +1215,6 @@ h5{
             display: flex;
             justify-content: center;
         }
-        .part2 .onlist ul {
-            align-items: center;
-        }
-
+        .part2 .onlist ul {align-items: center;}
         /**********page 06***********/
-
-
   }
